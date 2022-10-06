@@ -23,6 +23,18 @@
     {
       "name": "entry_SecondAbility",
       "value": "entry_SecondAbility"
+    },
+    {
+      "name": "eventability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "eventability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_EventAbility",
+      "value": "entry_EventAbility"
     }
   ]
 }

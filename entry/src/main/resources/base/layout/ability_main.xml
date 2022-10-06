@@ -21,7 +21,17 @@
         ohos:width="match_content"
         ohos:background_element="#f00"
         ohos:text_size="40vp"
-        ohos:text="click me"
+        ohos:text="页面跳转"
+        />
+
+    <Button
+        ohos:id="$+id:btnEvent"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="点我"
+        ohos:text_size="40vp"
+        ohos:background_element="#f40"
+        ohos:text_color="#fff"
         />
 
 </DirectionalLayout>

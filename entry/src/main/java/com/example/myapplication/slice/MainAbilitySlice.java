@@ -14,10 +14,13 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setUIContent(ResourceTable.Layout_ability_main);
-        // 获取按钮
+        // 获取页面跳转按钮
         button = (Button) findComponentById(ResourceTable.Id_btn);
         // 给按钮添加点击事件
         button.setClickedListener(this);
+
+        Button btnEvent = (Button) findComponentById(ResourceTable.Id_btnEvent);
+        btnEvent.setClickedListener(new MyListener());
 
     }
 
@@ -47,5 +50,14 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
             startAbility(intent);
 
         }
+    }
+}
+
+class MyListener implements Component.ClickedListener {
+
+    @Override
+    public void onClick(Component component) {
+        Button btn = (Button) component;
+        btn.setText("点了哦");
     }
 }
