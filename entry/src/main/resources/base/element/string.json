@@ -35,6 +35,18 @@
     {
       "name": "entry_EventAbility",
       "value": "entry_EventAbility"
+    },
+    {
+      "name": "slideability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "slideability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SlideAbility",
+      "value": "entry_SlideAbility"
     }
   ]
 }

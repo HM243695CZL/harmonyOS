@@ -39,5 +39,12 @@
         ohos:background_element="#f40"
         ohos:text_color="#fff"
         />
+    <Text
+        ohos:id="$+id:longText"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="长按我"
+        ohos:text_size="30vp"
+        />
 
 </DirectionalLayout>
